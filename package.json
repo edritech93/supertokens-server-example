@@ -1,0 +1,33 @@
+{
+  "name": "supertokens-server-example",
+  "version": "1.0.0",
+  "description": "example supertokens with expressJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edritech93/supertokens-server-example.git"
+  },
+  "keywords": [
+    "supertokens"
+  ],
+  "author": "yudiedrialviska@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edritech93/supertokens-server-example/issues"
+  },
+  "homepage": "https://github.com/edritech93/supertokens-server-example#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0",
+    "supertokens-node": "^9.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
